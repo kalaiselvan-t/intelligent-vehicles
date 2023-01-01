@@ -11,7 +11,7 @@ include_directories(
         matlab/
         lib
         log
-        codegen/lib/pass_primitive
+        codegen/lib/primitives
 )
 
 #target_include_directories(pass_primitive PUBLIC
@@ -32,8 +32,8 @@ add_executable(basic_agent
         log/logvars.cc
         starting_point.cc
     )
-target_link_directories(basic_agent PUBLIC codegen/lib/pass_primitive/build)
-target_link_libraries(basic_agent agent_lib ${lib_ws32} pass_primitive )
+target_link_directories(basic_agent PUBLIC codegen/lib/primitives/build)
+target_link_libraries(basic_agent agent_lib ${lib_ws32} primitives)
 
 target_compile_options(basic_agent
         PUBLIC -DNOT_INLINED -DSERVER

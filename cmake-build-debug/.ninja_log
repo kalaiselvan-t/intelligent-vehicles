@@ -1,0 +1,5 @@
+# ninja log v5
+1	42	1672586097921856699	CMakeFiles/IV.dir/basic_agent_st/log/screen_print.c.o	ee42a2da4f7aabd6
+1	47	1672586097925856698	CMakeFiles/IV.dir/basic_agent_st/pass_primitive/examples/main.cpp.o	7c009dbbd685b01f
+1	29	1672586097909856702	CMakeFiles/IV.dir/basic_agent_st/pass_primitive/rtGetInf.cpp.o	8d94a957d0b1efd0
+0	768	1672586098649856526	CMakeFiles/IV.dir/basic_agent_st/log/logvars.cc.o	e675b21b043ec179

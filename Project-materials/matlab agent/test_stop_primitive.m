@@ -1,0 +1,1 @@
+stop_primitive(1.0,1.0,1.0)
